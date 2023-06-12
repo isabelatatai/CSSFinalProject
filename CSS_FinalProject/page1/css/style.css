@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&family=Poppins&display=swap);
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color:  whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a2244;
+    color: whitesmoke;
+    padding: 20px;
+  }
+  
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+  }
+
+.menu {
+    display: flex;
+  }
+  
+.options {
+    margin-left: 20px;
+  }
+  
+.options a:link {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+.options a:visited{
+    text-decoration: none;
+    color: whitesmoke;
+}
+  
+.options a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+
+.options a:active{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+.search-bar input[type="text"] {
+    padding: 5px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    opacity: .8;
+  }
+  
+.search-bar button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.search-bar button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+    margin: 0em;
+}
+
+body h1{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.block{
+    justify-content: center;
+    text-align: justify;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 4px;
+    padding-bottom: 20px;
+  }
+
+.column img{
+    border-radius: 30px;
+    border-style: groove;
+    border-color: #c67f43;
+}
+
+.column a:link{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #444444;
+}
+
+.column a:visited{
+    text-decoration: none;
+    color: #444444;
+  }
+  
+.column a:hover {
+    color: #444444;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  
+.column a:active{
+    text-decoration: none;
+    color: #444444;
+  }
+
+
+footer{
+    background-color: #ccc;
+    opacity: 0.8;
+    font-size: small;
+}
